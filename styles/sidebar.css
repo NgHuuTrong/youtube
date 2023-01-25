@@ -22,6 +22,30 @@
   cursor: pointer;
 }
 
+@media (min-width: 1320px) 
+{
+  .sidebar {
+    left: 20px;
+  }
+  .sidebar-menu {
+    width: 180px;
+    height: 45px;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 14px;
+    border-radius: 10px;
+    padding-left: 12px;
+  }
+
+  body {
+    padding-left: 200px;
+  }
+
+  .sidebar img {
+    margin-right: 20px;
+  }
+}
+
 .sidebar-menu img {
   width: 24px;
   margin-bottom: 5px;
